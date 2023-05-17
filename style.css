@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    background-color:#1F2937 ;
+    height: fit-content;
+    padding: 5px;
+}
+#logo{
+    margin-left: 50px;
+    color: white;
+    font-size: large;
+}
+span{
+    color: red;
+}
+.navbar{
+    display: flex;
+}
+li{
+    display:inline-block;
+    margin-left: 10px;
+}
+ul{
+    margin-left: 420px;
+    font-size: small;
+}
+ul,a{
+    color: aliceblue;
+}
