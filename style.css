@@ -12,9 +12,9 @@
     padding: 5px;
 }
 #logo{
-    margin-left: 50px;
+    margin-left: 200px;
     color: white;
-    font-size: large;
+    font-size:50px;
 }
 span{
     color: red;
@@ -27,9 +27,72 @@ li{
     margin-left: 10px;
 }
 ul{
-    margin-left: 420px;
-    font-size: small;
+    margin-left: 800px;
+    font-size: x-large;
 }
 ul,a{
     color: aliceblue;
 }
+.signup{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-top: 100px;
+    margin-left: 200px;
+}
+#p1{
+    font-size:50px;
+    color: white;
+}
+#p2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+    color: white;     
+    margin-top: 10px;
+}
+button{
+    color: white;
+    background-color: #3882F6;
+    width: 120px;
+    border-radius: 8px;
+    font-size: 25px;
+    border: 0px;
+    margin-top: 10px;
+}
+#placeholder{
+    width: 550px;
+    height: 250px;
+    background-color: gray;
+    margin-bottom: 100px ;
+    margin-left: 220px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 110px;
+}
+.content{
+    display: flex;
+}
+.mid{
+
+}
+#heading{
+    font-size:50px;
+   color: #1F2937;
+   text-align: center;
+}
+.box{
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+#box1{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 100px;
+    height: 200px;
+    width: 200px;
+    border: #3882F6 5px solid;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}    
