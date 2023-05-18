@@ -5,6 +5,12 @@
     list-style: none;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border: #1F2937 2px solid; */
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container{
     background-color:#1F2937 ;
@@ -50,7 +56,7 @@ ul,a{
     color: white;     
     margin-top: 10px;
 }
-button{
+.signup button{
     color: white;
     background-color: #3882F6;
     width: 120px;
@@ -72,27 +78,98 @@ button{
 .content{
     display: flex;
 }
-.mid{
-
-}
 #heading{
     font-size:50px;
    color: #1F2937;
    text-align: center;
+   padding: 20px;
 }
+
 .box{
     align-items: center;
     justify-content: center;
-    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
 }
 #box1{
     display: inline-flex;
     flex-direction: column;
-    margin: 100px;
     height: 200px;
     width: 200px;
-    border: #3882F6 5px solid;
-    border-radius: 5px;
+    border: #3882F6 6px solid;
+    border-radius: 8px;
     justify-content: center;
     align-items: center;
 }    
+.box-content{
+    justify-content: center;
+    align-items:center ;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+
+}
+.box-content,p{
+   justify-content: center;
+   margin-top: 10px;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+}
+.quote{
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.quote p{
+    font-size: 30px;
+    font-style: italic;
+     color: #1F2937;
+     text-align: center;
+     padding: 100px;    
+    
+     
+}
+.quote span{
+    font-size: 35px;
+    color: black;
+    display:flex;
+    width: fit-content;
+    margin-left: 900px;
+   
+}
+.action{
+    display: flex;
+    justify-content: center;
+
+}
+.items{
+    display: flex;
+    background-color: #3882F6;
+    margin: 100px;
+    padding: 50px;
+    border-radius: 10px;
+    width: 900px;
+    align-items: center;
+    color: white;
+}
+.items button{
+    color: white;
+    background-color: #3882F6;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 8px;
+    font-size: 25px;
+    border:white 3px solid;
+    margin-left: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.items span{
+    color: white;
+    font-size: 20px;
+}
