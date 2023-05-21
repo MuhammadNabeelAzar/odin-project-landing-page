@@ -1,189 +1,186 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* border: #1F2937 2px solid; */
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: greenyellow 2px solid;
 }
-.body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.body {
+  display: flex;
 }
-.container{
-    background-color:#1F2937 ;
-    height: fit-content;
-    padding: 5px;
+.container {
+  background-color: #1f2937;
+  height: fit-content;
+  padding: 5px;
 }
-#logo{
-    margin-left: 200px;
-    color: white;
-    font-size:50px;
+#logo {
+  color: white;
+  font-size: 50px;
 }
-span{
-    color: red;
+span {
+  color: red;
 }
-.navbar{
-    display: flex;
-}
-li{
-    display:inline-block;
-    margin-left: 10px;
-}
-ul{
-    margin-left: 800px;
-    font-size: x-large;
-}
-ul,a{
-    color: aliceblue;
-}
-.signup{
-    display: flex;
-    flex-direction: column;
-    padding-left: 100px;
-    padding-top: 100px;
-    margin-left: 200px;
-}
-#p1{
-    font-size:50px;
-    color: white;
-}
-#p2{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:20px;
-    color: white;     
-    margin-top: 10px;
-}
-.signup button{
-    color: white;
-    background-color: #3882F6;
-    width: 120px;
-    border-radius: 8px;
-    font-size: 20px;
-    border: 0px;
-    margin-top: 10px;
-    cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#placeholder{
-    width: 550px;
-    height: 250px;
-    background-color: gray;
-    margin-bottom: 100px ;
-    margin-left: 220px;
-    margin-top: 100px;
-    text-align: center;
-    padding: 110px;
-}
-.content{
-    display: flex;
-}
-#heading{
-    font-size:50px;
-   color: #1F2937;
-   text-align: center;
-   padding: 20px;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.box{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 25px;
+nav {
+  display: flex;
+  font-size: x-large;
+  align-items: center;
+  margin-left: 10%;
 }
-#box1{
-    display: inline-flex;
-    flex-direction: column;
-    height: 200px;
-    width: 200px;
-    border: #3882F6 6px solid;
-    border-radius: 8px;
-    justify-content: center;
-    align-items: center;
-}    
-.box-content{
-    justify-content: center;
-    align-items:center ;
-    display: flex;
-    flex-direction: column;
-    padding: 2%;
+.navbar a {
+  display: flex;
+  color: aliceblue;
+  padding: 40px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+.signup {
+  display: flex;
+  flex-direction: column;
+}
+#p1 {
+  font-size: 50px;
+  color: white;
+}
+#p2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+}
+.signup button {
+  color: white;
+  background-color: #3882f6;
+  width: 120px;
+  border-radius: 8px;
+  font-size: 20px;
+  border: 0px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#placeholder {
+  width: 550px;
+  height: 250px;
+  background-color: gray;
+  text-align: center;
+  padding: 110px;
+  justify-content: center;
+}
+#heading {
+  font-size: 50px;
+  color: #1f2937;
+  text-align: center;
+  padding: 20px;
+}
 
+.box {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
 }
-.box-content p{
-   justify-content: center;
-   margin-top: 10px;
-   font-family:Georgia, 'Times New Roman', Times, serif;
-   text-align: center;
+#box1 {
+  display: inline-flex;
+  flex-direction: column;
+  height: 200px;
+  width: 200px;
+  border: #3882f6 6px solid;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
 }
-.quote{
-    background-color: #E5E7EB;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+.box-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
 }
-.quote p{
-    font-size: 30px;
-    font-style: italic;
-     color: #1F2937;
-     text-align: center;
-     padding: 100px;    
-    
-     
+.box-content p {
+  justify-content: center;
+  margin-top: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
 }
-.quote span{
-    font-size: 35px;
-    color: black;
-    display:flex;
-    width: fit-content;
-    margin-left: 900px;
-   
+.quote {
+  background-color: #e5e7eb;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.action{
-    display: flex;
-    justify-content: center;
-
+.quote p {
+  font-size: 30px;
+  font-style: italic;
+  color: #1f2937;
+  text-align: center;
+  padding: 100px;
 }
-.items{
-    display: flex;
-    background-color: #3882F6;
-    margin: 150px;
-    padding: 50px;
-    border-radius: 10px;
-    width: 1000px;
-    align-items: center;
-    color: white;
+.quote span {
+  font-size: 35px;
+  color: black;
+  display: flex;
+  width: fit-content;
+  margin-left: 900px;
 }
-.items button{
-    color: white;
-    background-color: #3882F6;
-    width: fit-content;
-    height: fit-content;
-    border-radius: 8px;
-    font-size: 20px;
-    border:white 2px solid;
-    margin-left: 150px;
-    padding-left: 50px;
-    padding-right: 50px;
-    cursor: pointer;
-    font-family:Arial, Helvetica, sans-serif;
+.action {
+  display: flex;
+  justify-content: center;
 }
-.items p{
-    font-size: 20px;
+.items {
+  display: flex;
+  background-color: #3882f6;
+  margin: 150px;
+  padding: 50px;
+  border-radius: 10px;
+  width: 1000px;
+  align-items: center;
+  color: white;
 }
-.items span{
-    color: white;
-    font-size: 15px;
+.items button {
+  color: white;
+  background-color: #3882f6;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 8px;
+  font-size: 20px;
+  border: white 2px solid;
+  margin-left: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.footer{
-    padding: 25px;
-    background-color: #1F2937;
-    color: white;
-    text-align: center;
-
+.items p {
+  font-size: 20px;
+}
+.items span {
+  color: white;
+  font-size: 15px;
+}
+.footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: ;
+}
+.footer a {
+  color: white;
+  width: fit-content;
 }
